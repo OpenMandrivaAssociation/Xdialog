@@ -12,7 +12,7 @@ Source:		%name-%version.tar.bz2
 
 Group:		Development/Other
 URL:		http://xdialog.dyns.net/
-Buildrequires:	bison XFree86-devel gtk+2-devel glib2-devel autoconf2.5
+Buildrequires:	bison X11-devel gtk+2-devel glib2-devel autoconf2.5
 BuildRoot:	%_tmppath/%name-buildroot
 License:	GPL
 Provides:	xmsg-dialog
