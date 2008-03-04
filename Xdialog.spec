@@ -1,6 +1,6 @@
 %define name Xdialog
 %define version 2.2.1
-%define rel	2
+%define rel	3
 %define release %mkrel %rel
 
 Name:		%{name}
