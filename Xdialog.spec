@@ -1,7 +1,7 @@
 Summary:	A replacement for the cdialog program for X
 Name:		Xdialog
 Version:	2.2.1
-Release:	%mkrel 4
+Release:	%mkrel 5
 Source0:	%{name}-%{version}.tar.bz2
 Group:		Development/Other
 License:	GPL
