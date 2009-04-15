@@ -3,6 +3,7 @@ Name:		Xdialog
 Version:	2.2.1
 Release:	%mkrel 5
 Source0:	%{name}-%{version}.tar.bz2
+Patch0:		Xdialog-2.2.1-fix-str-fmt.patch
 Group:		Development/Other
 License:	GPL
 URL:		http://xdialog.dyns.net/
@@ -17,8 +18,8 @@ interface. The dialogs are easier to see and use and the treeview adds an
 extra dimension to the way menus can be displayed.
 
 %prep
-
 %setup -q
+%patch0 -p0
 
 %build
 
