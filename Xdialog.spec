@@ -1,7 +1,7 @@
 Summary:	A replacement for the cdialog program for X
 Name:		Xdialog
 Version:	2.2.1
-Release:	%mkrel 5
+Release:	%mkrel 6
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		Xdialog-2.2.1-fix-str-fmt.patch
 Group:		Development/Other
