@@ -1,13 +1,15 @@
 Summary:	A replacement for the cdialog program for X
 Name:		Xdialog
 Version:	2.2.1
-Release:	%mkrel 6
+Release:	%mkrel 7
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		Xdialog-2.2.1-fix-str-fmt.patch
 Group:		Development/Other
 License:	GPL
 URL:		http://xdialog.dyns.net/
-Buildrequires:	bison X11-devel gtk+2-devel glib2-devel autoconf2.5
+BuildRequires:  bison
+BuildRequires:  gtk+2-devel
+BuildRequires:  glib2-devel
 Provides:	xmsg-dialog
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
