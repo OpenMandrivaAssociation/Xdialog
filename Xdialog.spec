@@ -50,3 +50,60 @@ rm -rf %{buildroot}
 %doc doc/*.html doc/*.png
 %{_mandir}/man1/*
 %{_bindir}/*
+
+
+%changelog
+* Sat May 07 2011 Oden Eriksson <oeriksson@mandriva.com> 2.3.1-2mdv2011.0
++ Revision: 671976
+- mass rebuild
+
+* Wed Dec 01 2010 Paulo Ricardo Zanoni <pzanoni@mandriva.com> 2.3.1-1mdv2011.0
++ Revision: 604385
+- New version: 2.3.1
+- Remove unneeded X11-devel and autoconf BR
+
+* Tue Mar 16 2010 Oden Eriksson <oeriksson@mandriva.com> 2.2.1-6mdv2010.1
++ Revision: 521916
+- rebuilt for 2010.1
+
+* Wed Apr 15 2009 Funda Wang <fwang@mandriva.org> 2.2.1-5mdv2010.0
++ Revision: 367267
+- fix str fmt
+
+* Wed Jun 18 2008 Thierry Vignaud <tv@mandriva.org> 2.2.1-5mdv2009.0
++ Revision: 226029
+- rebuild
+
+* Wed Mar 05 2008 Oden Eriksson <oeriksson@mandriva.com> 2.2.1-4mdv2008.1
++ Revision: 179998
+- fix build
+- don't strip the binary
+- rebuild
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - buildrequires X11-devel instead of XFree86-devel
+
+
+* Tue Dec 05 2006 Pascal Terjan <pterjan@mandriva.org> 2.2.1-2mdv2007.0
++ Revision: 91332
+- Use gtk2 and autoconf2.5
+- Import Xdialog
+
+* Wed May 10 2006 Lenny Cartier <lenny@mandriva.com> 2.2.1-1mdk
+- 2.2.1
+
+* Fri Jan 13 2006 Eskild Hustvedt <eskild@mandriva.org> 2.1.1-4mdk
+- Provides xmsg-dialog
+- %%mkrel
+- Minor summary change
+
+* Sat Dec 31 2005 Mandriva Linux Team <http://www.mandrivaexpert.com/> 2.1.1-3mdk
+- Rebuild
+
+* Fri Aug 20 2004 Lenny Cartier <lenny@mandrakesoft.com> 2.1.1-2mdk
+- rebuild
+
