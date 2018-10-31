@@ -1,7 +1,7 @@
 Summary:	A replacement for the cdialog program for X
 Name:		Xdialog
 Version:	2.3.1
-Release:	11
+Release:	12
 Group:		Development/Other
 License:	GPLv2
 Url:		http://xdialog.dyns.net/
