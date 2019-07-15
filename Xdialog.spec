@@ -1,7 +1,7 @@
 Summary:	A replacement for the cdialog program for X
 Name:		Xdialog
 Version:	2.3.1
-Release:	12
+Release:	13
 Group:		Development/Other
 License:	GPLv2
 Url:		http://xdialog.dyns.net/
@@ -30,16 +30,17 @@ find -type f -name "Makefile" | xargs perl -pi -e "s|^INSTALL_STRIP_PROGRAM.*|IN
 find -type f -name "Makefile" | xargs perl -pi -e "s|INSTALL_STRIP_FLAG=-s|INSTALL_STRIP_FLAG=|g" 
 find -type f -name "Makefile" | xargs perl -pi -e "s|-Wall -s|-Wall|g" 
 
-%make
+%make_build
 
 %install
-%makeinstall docdir=%{buildroot}%{_docdir}/%{name}
+%make_install docdir=%{buildroot}%{_docdir}/%{name}
 
 %find_lang %{name}
 
 %files -f %{name}.lang
 %doc ChangeLog COPYING samples
 %doc doc/*.html doc/*.png
+%{_datadir}/doc/Xdialog/*
 %{_bindir}/*
 %{_mandir}/man1/*
 
