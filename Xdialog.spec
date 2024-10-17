@@ -4,7 +4,7 @@ Version:	2.3.1
 Release:	13
 Group:		Development/Other
 License:	GPLv2
-Url:		http://xdialog.dyns.net/
+Url:		https://xdialog.dyns.net/
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		Xdialog-2.2.1-fix-str-fmt.patch
 BuildRequires:	bison
